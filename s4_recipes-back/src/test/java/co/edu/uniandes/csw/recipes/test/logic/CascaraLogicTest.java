@@ -30,4 +30,6 @@ package co.edu.uniandes.csw.recipes.test.logic;
  */
 public class CascaraLogicTest {
     
+    
+    
 }

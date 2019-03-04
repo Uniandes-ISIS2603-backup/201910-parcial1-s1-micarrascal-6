@@ -32,5 +32,15 @@ public class RecipePersistence {
     }
     
     //TODO método crear de recipe
+    
+    public RecipeEntity  createRecipe(RecipeEntity recipeEntity)
+    {
+       LOGGER.log(Level.INFO, "Creando una receta nueva");
+        em.persist(recipeEntity);
+        LOGGER.log(Level.INFO, "Receta creado");
+        return recipeEntity;
+    }
+    
+    
 
 }
